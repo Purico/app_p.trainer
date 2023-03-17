@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-41dp">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="53dp"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        app:srcCompat="@drawable/_58a8_87950f_6d2e811a3dbf47968356c579e953d145mv2"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="39dp"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton3"
+        app:srcCompat="@drawable/_326681"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cal"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="42dp"
+        android:clickable="true"
+        android:contentDescription="alunos"
+        android:scaleType="centerInside"
+        android:visibility="visible"
+        android:onClick="chamarAlunosCAD"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton5"
+        app:srcCompat="@drawable/img_avatar"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="10dp"
+        android:text="ALUNOS"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="AULAS"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="65dp"
+        android:text="PONTOS"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:text="FINANÇAS"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="409dp"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/captura_de_tela_2023_03_14__s_10_34_51"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-6dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C5B5B"
+    tools:context=".AlunosADDActivity">
+
+    <LinearLayout
+        android:layout_width="406dp"
+        android:layout_height="656dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="75dp">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="NOME COMPLETO"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="EMAIL"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="TELEFONE"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="IDADE"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:ems="10"
+            android:hint="OBSERVAÇOES DO ALUNO"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genero"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:layout_width="289dp"
+            android:layout_height="37dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFFFFF"
+                android:text="Masculino"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFFFFF"
+                android:text="Feminino"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:insetLeft="15dp"
+            android:insetTop="20dp"
+            android:insetRight="15dp"
+            android:insetBottom="20dp"
+            android:text="Salvar"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
